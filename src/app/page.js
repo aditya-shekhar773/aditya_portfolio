@@ -146,7 +146,7 @@ export default function Home() {
               <div className='lg:w-1/2 md:w-1/2  lg:h-48 md:h-72 bg-slate-300 rounded-lg p-5 lg:mt-0 md:mt-0 mt-2'>
                 <p className='text-xl font-serif font-bold'><u>Coaching Website</u></p>
                 <p className='mt-2 font-serif text-start'>The code of this website is written in  CorePhp, MySql, Html5, Tilwindcss ans full functional. It support authentication</p>
-                <p className='text-right lg:mt-6 md:mt-16'><a className="text-sm bg-black text-white px-2 py-2 p-2 rounded-lg" href="https://github.com/aditya-shekhar773/servix">GitHub</a></p>
+                <p className='text-right lg:mt-6 md:mt-16'><a className="text-sm bg-black text-white px-2 py-2 p-2 rounded-lg" href="https://github.com/aditya-shekhar773/cws">GitHub</a></p>
               </div>
             </div>
             <div className='w-full lg:flex md:flex gap-1 mt-2'>
@@ -188,9 +188,9 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center lg:text-end md:text-end">
-              <button className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">
+              <a href='https://github.com/aditya-shekhar773' className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">
                 Check GitHub
-              </button>
+              </a>
             </div>
           </div>
         </div>

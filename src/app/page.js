@@ -8,11 +8,11 @@ export default function Home() {
         <div className="row mt-0 lg:flex">
           <div className="lg:w-7/12">
             <p className="mb-2 font-mono text-lg font-bold" >Hi, I am</p>
-            <p className="lg:text-5xl text-3xl font-bold mt-2">Aditya Shekhar</p>
+            <p className="lg:text-5xl text-3xl font-bold mt-2 font-serif">Aditya Shekhar</p>
             <p className="lg:text-xl font-mono text-sm mt-2 text-slate-400">&lt;An amateur developer./&gt;</p>
-            <p className="lead  text-2xl d-none d-md-block mt-3 font-sans text-slate-500">
+            <p className="lead  text-2xl d-none d-md-block mt-3 font-sarif text-slate-500">
               I am a developer-cum-student with specialization in <span className="text-black">Web/App development</span>.
-              <span className='text-slate-300'> Not really</span> Skilled in <span className="font-semibold text-blue-600" >Python</span> and <span className="text-slate-300">really not</span> good in <span className="font-semibold text-orange-400">Javascript</span> &amp; <span className="font-semibold text-blue-400" >PHP</span>.
+              <span className='text-slate-300'> Not really</span> Skilled in <span className="font-semibold text-blue-600" >Python</span> and <span className="text-slate-300">really not</span> good in <span className="font-semibold text-orange-400">Javascript</span> &amp; <span className="font-semibold text-blue-400" >NextJs</span>.
             </p>
             <div className="flex sm:spaxe-x-0 mt-2">
               <pre className="mb-0 text-medium" >Connect with me :</pre>
@@ -39,8 +39,7 @@ export default function Home() {
           <button className="px-3 py-3 bg-slate-200 rounded-full"><svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 320 512" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z"></path></svg></button>
         </div>
       </div>
-      <div className='border-2 border-slate-400 mt-5'></div>
-
+      <div className='border-2 border-slate-700 mt-5'></div>
 
       <div className="container text-center lg:mt-24 mt-10">
         <span className="text-5xl font-bold border-b-8 border-orange-500 font-poppins opacity-100">About Me</span>
@@ -50,11 +49,10 @@ export default function Home() {
           </div>
           <div className="lg:w-2/3 mt-4 lg:mt-10 flex flex-col items-center">
             <p className="text-xl text-center lg:text-left mt-4 font-medium font-sans">
-              I am pursuing under graduation in BCA and I am a web developer with experience in freelance and internship.
-              I have built several different projects that include famous technologies like
+              I am complete  graduation in BCA and I am a web developer with experience  and internship. I have built several different projects that include famous technologies like 
               <span className="font-semibold text-teal-500">
-                &nbsp;Python (Django &amp; FastAPI),
-                JavaScript (Vanilla JS, ReactJS &amp; React Native), and PHP
+                &nbsp;Php (Laravel &amp; LiveWire),
+                JavaScript (Vanilla JS, ReactJS &amp; NextJs), and Python
               </span>.
               Currently, I am expanding my knowledge in
               <span className="text-teal-500">&nbsp; Ethical Hacking</span>.
@@ -64,22 +62,22 @@ export default function Home() {
             <div className="flex flex-wrap lg:justify-start mt-4 lg:gap-4 gap-2">
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans">Javascript</span>
+                  <span className="block text-center font-sans">Laravel</span>
                 </div>
               </div>
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans ">Python</span>
+                  <span className="block text-center font-sans ">NextJs</span>
                 </div>
               </div>
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans">ReactJs</span>
+                  <span className="block text-center font-sans">Php</span>
                 </div>
               </div>
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans">Django</span>
+                  <span className="block text-center font-sans">NodeJs</span>
                 </div>
               </div>
               <div className="w-[45%] lg:w-1/5">
@@ -89,12 +87,12 @@ export default function Home() {
               </div>
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans">Laravel</span>
+                  <span className="block text-center font-sans">Django</span>
                 </div>
               </div>
               <div className="w-[45%] lg:w-1/5">
                 <div className="rounded-xl shadow-sm py-2 px-5 p-5 bg-gray-300">
-                  <span className="block text-center font-sans">Nodejs</span>
+                  <span className="block text-center font-sans">Python</span>
                 </div>
               </div>
             </div>
@@ -102,70 +100,84 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='border-2 border-slate-400 mt-5'></div>
+      <div className='border-2 border-slate-700 mt-5'></div>
 
-      <div className="container mt-5 mt-lg-4 text-center">
+      <div className="container mt-10 text-center">
         <span className="lg:text-5xl text-3xl font-bold px-1 py-1 border-b-8 border-orange-500 font-poppins">
           My Work History
         </span>
-        <div className="lg:mt-20 mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="lg:w-1/3 mx-auto items-center justify-center">
-            <Image src="/Firmware.gif" width={500} height={100} alt="my work history" className=' h-full w-full'/>
+        <div className='row mt-0 lg:flex'>
+          <div className="lg:w-2/5 mx-auto items-center justify-center">
+            <Image src="/Firmware.gif" width={350} height={100} alt="my work history" className='' />
           </div>
-          <div className="lg:w-2/3 flex items-center justify-center mt-4">
-            <div className="bg-gray-200 rounded-md shadow-sm p-4 w-full md:w-96">
-              <div className="animate-pulse">
-                <p className="placeholder-h1 rounded-lg w-3/4 h-12"></p>
+          <div className="lg:w-3/5 flex items-center justify-center mt-4">
+            <div className="bg-gray-200 flex rounded-md shadow-sm p-2 w-full md:w-96">
+              <div className="w-1/3">
+                <Image src="/company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
               </div>
-              <p className="mt-4">
-                <span className="placeholder-h2 inline-block w-2/4 h-8 rounded-lg mb-2"></span>
-                <span className="placeholder-h2 inline-block w-1/4 h-8 rounded-lg mb-2 ml-2"></span>
-                <span className="placeholder-h2 inline-block w-1/5 h-8 rounded-lg mb-2 ml-2"></span>
-              </p>
-              <div className="animate-pulse">
-                <p className="placeholder-h1 rounded-lg w-3/4 h-12"></p>
+              <div className="w-2/3">
+                <p className='lg:text-lg  text-base font-medium lg:font-semibold font-serif'>Bharat Software Pvt. Ltd.</p>
+                <span className='text-sm lg:text-base  font-medium lg:font-semibold font-serif'>Role: Backend Developer</span>
+                <p className='text-sm font-normal lg:font-semibold font-serif'>22 May 2023 to Present</p>
+                <p className='text-sm font-normal lg:font-semibold font-serif'>Place: New Delhi</p>
               </div>
-              <p className="mt-4">
-                <span className="placeholder-h2 inline-block w-2/4 h-8 rounded-lg mb-2"></span>
-                <span className="placeholder-h2 inline-block w-1/4 h-8 rounded-lg mb-2 ml-2"></span>
-                <span className="placeholder-h2 inline-block w-1/5 h-8 rounded-lg mb-2 ml-2"></span>
-              </p>
             </div>
           </div>
         </div>
       </div>
-      <div className='border-2 border-slate-400 mt-5'></div>
+      <div className='border-2 border-slate-700 mt-5'></div>
 
       <div className="container mt-5 mt-lg-4 text-center">
         <span className="text-5xl font-bold px-1 py-1 border-b-8 border-orange-500 font-poppins opacity-100">
           My Projects
         </span>
-        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <div className='row mt-5 lg:flex'>
           <div className="lg:w-1/3 flex items-center justify-center">
-            <Image width={500} height={100} src="/Thesis.gif" alt="" className=" h-full" />
+            <Image width={500} height={100} src="/Thesis.gif" alt="" />
           </div>
-          <div className="lg:w-2/3 flex items-center justify-center mt-4">
-            <div className="w-full lg:flex text-center text-lg-start gap-2">
-              <div className="bg-gray-200 rounded-md shadow-sm p-4 w-full lg:w-1/2">
-                fdgfdgfdgfdg
+          <div className="lg:w-2/3 lg:mt-5  lg:gap-2 lg:p-4 gap-4 ">
+            <div className='w-full lg:flex gap-1'>
+              <div className='lg:w-1/2 h-44  bg-slate-300 rounded-lg p-5'>
+                <p className='text-xl font-serif font-bold'><u>Servix Center</u></p>
+                <p></p>
               </div>
-              <div className="bg-gray-200 rounded-md shadow-sm p-4 w-full lg:w-1/2">
-                fdgfdgdf
-              </div>
-
-
-              <div className="text-center text-lg-end">
-                <button className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">
-                  Check GitHub
-                </button>
-              </div>
+              <div className='lg:w-1/2 h-44 bg-slate-300 rounded-lg lg:mt-0 mt-2'>Aditya</div>
+            </div>
+            <div className='w-full lg:flex gap-1 mt-2'>
+              <div className='lg:w-1/2  h-44 bg-slate-300 rounded-lg'>Hello</div>
+              <div className='lg:w-1/2 h-44 bg-slate-300 rounded-lg lg:mt-0 mt-2'>Aditya</div>
+            </div>
+            <div className="text-center lg:text-end">
+              <button className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">
+                Check GitHub
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <div className='border-2 border-slate-700 mt-5'></div>
 
+      <div className="container mt-5 mt-lg-4 text-center">
+        <div className="Toastify"></div>
+        <span className="text-4xl font-bold px-1 my-0 border-b-8 border-orange-500 font-poppins opacity-100">Get In Touch</span>
+        <div className='row mt-5 lg:flex'>
+          <div className="lg:w-1/3 flex items-center justify-center">
+            <Image width={500} height={100} src="/Touch.gif" alt="" />
+          </div>
+          <div className="lg:w-2/3 lg:mt-5 mt-5 lg:gap-2 lg:p-4 gap-4 ">
+            <p className="mb-4 lg:mb-0  text-center lg:text-left font-sarif font-semibild text-base lg:text-lg">Fill up the form below to contact me in a very simple way and I will reply to you ASAP. You can also contact me at <span className="badge bg-gray-300 text-black font-light small font-mono">adityashekhar.773@gmail.com</span></p>
+            <div className="flex flex-col lg:flex-row w-full gap-5 mt-5">
+              <input type="text" placeholder="Enter your name" className="rounded-xl form-control lg:py-5 py-3 font-light text-sm bg-gray-200 font-poppins lg:w-1/2 p-2" />
+              <input type="text" placeholder="Enter your email" className="rounded-xl form-control lg:py-5 py-3 font-light text-sm bg-gray-200 font-poppins lg:w-1/2 p-2" />
+            </div>
+            <textarea rows={5} cols={7} placeholder="Enter your message" className="rounded-lg form-control font-light text-sm bg-gray-200 font-poppins mt-3 w-full p-4"></textarea>
+            <button className="btn bg-black text-white px-2 py-2 w-full rounded-lg font-semibold font-poppins mt-3"><span>Send Message</span></button>
+          </div>
+        </div>
+
+      </div>
 
     </div>
-
   )
 }

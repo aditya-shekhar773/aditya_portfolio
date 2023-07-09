@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div className="lg:w-2/3 mt-4 lg:mt-10 flex flex-col items-center">
             <p className="text-xl text-center lg:text-left mt-4 font-medium font-sans">
-              I am complete  graduation in BCA and I am a web developer with experience  and internship. I have built several different projects that include famous technologies like 
+              I am complete  graduation in BCA and I am a web developer with experience  and internship. I have built several different projects that include famous technologies like
               <span className="font-semibold text-teal-500">
                 &nbsp;Php (Laravel &amp; LiveWire),
                 JavaScript (Vanilla JS, ReactJS &amp; NextJs), and Python
@@ -138,16 +138,54 @@ export default function Home() {
           </div>
           <div className="lg:w-2/3 lg:mt-5  lg:gap-2 lg:p-4 gap-4 ">
             <div className='w-full lg:flex gap-1'>
-              <div className='lg:w-1/2 h-44  bg-slate-300 rounded-lg p-5'>
+              <div className='lg:w-1/2 lg:h-48   bg-slate-300 rounded-lg p-5'>
                 <p className='text-xl font-serif font-bold'><u>Servix Center</u></p>
-                <p></p>
-                <p></p>
+                <p className='mt-2 font-serif text-start'>The servix center that can be handle service provideLaptop, Computer ans Accessories, with a real time function made using laravel MySql. It support admin, Staff authentication</p>
+                <p className='text-right lg:mt-1 -mt-3'><a className="text-sm bg-black text-white px-2 py-2 p-2 rounded-lg" href="https://github.com/aditya-shekhar773/servix">GitHub</a></p>
               </div>
-              <div className='lg:w-1/2 h-44 bg-slate-300 rounded-lg lg:mt-0 mt-2'>Aditya</div>
+              <div className='lg:w-1/2 h-48  bg-slate-300 rounded-lg p-5 lg:mt-0 mt-2'>
+                <p className='text-xl font-serif font-bold'><u>Coaching Website</u></p>
+                <p className='mt-2 font-serif text-start'>The code of this website is written in  CorePhp, MySql, Html5, Tilwindcss ans full functional. It support authentication</p>
+                <p className='text-right lg:mt-6 '><a className="text-sm bg-black text-white px-2 py-2 p-2 rounded-lg" href="https://github.com/aditya-shekhar773/servix">GitHub</a></p>
+              </div>
             </div>
             <div className='w-full lg:flex gap-1 mt-2'>
-              <div className='lg:w-1/2  h-44 bg-slate-300 rounded-lg'>Hello</div>
-              <div className='lg:w-1/2 h-44 bg-slate-300 rounded-lg lg:mt-0 mt-2'>Aditya</div>
+              <div className='lg:w-1/2 h-48  bg-slate-300 rounded-lg p-5'>
+                <div role="status" class="max-w-sm p-4 border border-gray-200 rounded shadow animate-pulse lg:p-2 dark:border-gray-700">
+                  <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                  <div class="flex items-center lg:mt-6 mt-2 space-x-3">
+                    <svg class="w-10 h-10 text-gray-200 dark:text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                    </svg>
+                    <div>
+                      <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32 mb-2"></div>
+                      <div class="w-48 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                    </div>
+                  </div>
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <div className='lg:w-1/2 h-48  bg-slate-300 rounded-lg p-5 lg:mt-0 mt-2'>
+                <div role="status" class="max-w-sm p-4 border border-gray-200 rounded shadow animate-pulse lg:p-2 dark:border-gray-700">
+                  <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                  <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                  <div class="flex items-center lg:mt-6 mt-2 space-x-3">
+                    <svg class="w-10 h-10 text-gray-200 dark:text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                    </svg>
+                    <div>
+                      <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32 mb-2"></div>
+                      <div class="w-48 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                    </div>
+                  </div>
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
             </div>
             <div className="text-center lg:text-end">
               <button className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">

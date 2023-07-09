@@ -12,7 +12,7 @@ export default function Home() {
             <p className="lg:text-xl font-mono text-sm mt-2 text-slate-400">&lt;An amateur developer./&gt;</p>
             <p className="lead  text-2xl d-none d-md-block mt-3 font-sarif text-slate-500">
               I am a developer-cum-student with specialization in <span className="text-black">Web/App development</span>.
-              <span className='text-slate-300'> Not really</span> Skilled in <span className="font-semibold text-blue-600" >Python</span> and <span className="text-slate-300">really not</span> good in <span className="font-semibold text-orange-400">Javascript</span> &amp; <span className="font-semibold text-blue-400" >NextJs</span>.
+              <span className='text-slate-300'> Not really</span> Skilled in <span className="font-semibold text-blue-600" >Python</span> and <span className="text-slate-300">really not</span> good in <span className="font-semibold text-orange-400">Javascript</span> '&amp;' <span className="font-semibold text-blue-400" >NextJs</span>.
             </p>
             <div className="flex sm:spaxe-x-0 mt-2">
               <pre className="mb-0 text-medium" >Connect with me :</pre>
@@ -140,6 +140,7 @@ export default function Home() {
             <div className='w-full lg:flex gap-1'>
               <div className='lg:w-1/2 h-44  bg-slate-300 rounded-lg p-5'>
                 <p className='text-xl font-serif font-bold'><u>Servix Center</u></p>
+                <p></p>
                 <p></p>
               </div>
               <div className='lg:w-1/2 h-44 bg-slate-300 rounded-lg lg:mt-0 mt-2'>Aditya</div>

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-         <nav className="navbar navbar-expand-lg bg-black w-full">
+         <nav className="navbar navbar-expand-lg  navbar-expand-md bg-black w-full">
                 <div className="container">
                     <div className="items-center justify-between">
                         <a className="items-center" href="/">

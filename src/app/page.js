@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="text-center lg:text-end md:text-end">
+            <div className="text-center lg:text-end md:text-end mt-5 sm:mt-5">
               <a href='https://github.com/aditya-shekhar773' className="font-semibold rounded-md border-0 py-3 px-2 my-2 bg-black text-white text-center font-poppins">
                 Check GitHub
               </a>

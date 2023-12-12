@@ -113,7 +113,7 @@ export default function Home() {
           <div className="lg:w-3/5 md:w-3/5 flex items-center justify-center mt-4">
             <div className="bg-gray-200 flex rounded-md shadow-sm p-2 w-full md:w-96">
               <div className="w-1/3">
-                <Image src="/Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
+                <Image src="./Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
               </div>
               <div className="w-2/3">
                 <p className='lg:text-lg md:text-lg  text-base font-medium md:font-semibold lg:font-semibold font-serif'>Bharat Software Pvt. Ltd.</p>

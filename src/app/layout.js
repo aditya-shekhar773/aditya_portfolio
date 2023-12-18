@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="H4gNKtuaXkIyq9TrTcPP8RPZux_YQDeEvVGxi8Cfd6M" />
         <meta name="description" content="Experienced web developer specializing in Laravel, JavaScript, and Python. Currently expanding knowledge in Ethical Hacking. Check out my portfolio for innovative projects."/>
         <meta name="keywords" content="web development, Laravel, JavaScript, Python, Ethical Hacking, portfolio, Aditya Shekhar, Adi, Nextjs developer, Nodejs,"/>
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
 
       </head>
       <body className={inter.className}>

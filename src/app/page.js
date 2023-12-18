@@ -1,8 +1,24 @@
+'use client'
 import Image from 'next/image'
 
 export default function Home() {
+
+    const openPDF = () => {
+      // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
+      const pdfPath = './assets/resume.pdf';
+
+      // Open the PDF file in a new browser window or tab
+      window.open(pdfPath, '_blank');
+    };
+    const initiatePhoneCall = () => {
+      // Replace '1234567890' with the actual phone number you want to call
+      const phoneNumber = '+917739628691';
+
+      // Use the 'tel:' URI scheme to initiate a phone call
+      window.open(`tel:${phoneNumber}`);
+    };
   return (
-    <div className="w-full bg-white items-center justify-between md:p-24 lg:p-24 p-5">
+    <div className="w-full items-center justify-between md:p-24 lg:p-24 p-5">
 
       <div className="container">
         <div className="row mt-0 lg:flex md:flex">
@@ -22,8 +38,12 @@ export default function Home() {
               <a className="" href="https://www.instagram.com/adityashekhar_773"><svg xmlns="http://www.w3.org/2000/svg" className=" ml-4 mt-1 h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" /></svg></a>
             </div>
             <div className="flex justify-content-center justify-content-md-start mt-4">
-              <a href="" target="_blank" rel="noreferrer" className="p-2 px-2 py-2 bg-black text-white rounded-lg" >GET RESUME</a>
-              <button className="ml-4 font-xl px-2 py-2 rounded-lg  bg-slate-300 hover:bg-black hover:text-white" >CHECK BLOGS</button>
+              <button onClick={() => openPDF()}className="p-2 px-2 py-2 bg-black text-white rounded-lg">
+              GET RESUME
+              </button>
+              <button onClick={initiatePhoneCall} className="ml-4 font-xl px-2 py-2 rounded-lg  bg-slate-300 hover:bg-black hover:text-white">
+                Contact me
+              </button>
             </div>
           </div>
 
@@ -113,7 +133,7 @@ export default function Home() {
           <div className="lg:w-3/5 md:w-3/5 flex items-center justify-center mt-4">
             <div className="bg-gray-200 flex rounded-md shadow-sm p-2 w-full md:w-96">
               <div className="w-1/3">
-                <Image src="./Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
+                <Image src="/Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
               </div>
               <div className="w-2/3">
                 <p className='lg:text-lg md:text-lg  text-base font-medium md:font-semibold lg:font-semibold font-serif'>Bharat Software Pvt. Ltd.</p>

@@ -96,7 +96,8 @@ export default function Home() {
 
           <div className="lg:w-5/12 md:w-5/12 object-fit-contain">
             <div className='lg:-mt-12 md:-mt-12'>
-              <Image width={500} height={100} src="/coding.gif" alt="" className=" h-full" />
+              <Image width={500} height={100} src="/coding.gif" alt="" className="dark:hidden h-full" />
+              <Image width={500} height={100} src="/coding_1.gif" alt="" className="dark:flex hidden h-full" />
             </div>
           </div>
         </div>
@@ -175,12 +176,14 @@ export default function Home() {
         </span>
         <div className='row mt-0 lg:flex md:flex'>
           <div className="lg:w-2/5 md:w-2/5 mx-auto items-center justify-center">
-            <Image src="/Firmware.gif" width={350} height={100} alt="my work history" className='' />
+            <Image src="/Firmware.gif" width={350} height={100} alt="my work history" className='dark:hidden' />
+            <Image src="/aditya.gif" width={350} height={100} alt="my work history" className='dark:flex hidden' />
           </div>
           <div className="lg:w-3/5 md:w-3/5 flex items-center justify-center mt-4">
             <div className="bg-gray-200 flex rounded-md shadow-sm p-2 w-full md:w-96">
               <div className="w-1/3">
-                <Image src="/Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg' />
+                <Image src="/Company.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg dark:hidden' />
+                <Image src="/adi.gif" width={100} height={100} alt="my work history" className='bg-gray-200 rounded-lg dark:flex hidden' />
               </div>
               <div className="w-2/3">
                 <p className='lg:text-lg md:text-lg  text-base font-medium md:font-semibold lg:font-semibold font-serif'>Bharat Software Pvt. Ltd.</p>
@@ -201,7 +204,8 @@ export default function Home() {
 
         <div className='row mt-5 lg:flex md:flex'>
           <div className="lg:w-1/3 md:w-1/3 flex items-center justify-center">
-            <Image width={500} height={100} src="/Thesis.gif" alt="" />
+            <Image width={500} height={100} src="/Thesis.gif" alt="" className='dark:hidden'/>
+            <Image width={500} height={100} src="/Thesis_1.gif" alt=""  className='dark:flex hidden'/>
           </div>
           <div className="lg:w-2/3 md:w-2/3 lg:mt-5 md:mt-5 md:gap-2  lg:gap-2 md:p-4 lg:p-4 gap-4 ">
             <div className='w-full lg:flex md:flex gap-1'>
@@ -269,7 +273,8 @@ export default function Home() {
         <span className="text-4xl font-bold px-1 my-0 border-b-8 border-orange-500 font-poppins opacity-100">Get In Touch</span>
         <div className='row mt-5 lg:flex md:flex'>
           <div className="lg:w-1/3 md:w-1/3 flex items-center justify-center">
-            <Image width={500} height={100} src="/Touch.gif" alt="" />
+            <Image width={500} height={100} src="/Touch.gif" alt="" className='dark:hidden'/>
+            <Image width={500} height={100} src="/Touch_1.gif" alt=""  className='dark:flex hidden'/>
           </div>
           <div className="lg:w-2/3 md:w-2/3 md:mt-5 lg:mt-5 mt-5 md:gap-2 lg:gap-2 md:p-4 lg:p-4 gap-4 ">
             <p className="mb-4 lg:mb-0 md:mb-0 text-center lg:text-left md:text-left font-sarif font-semibild text-base lg:text-lg md:text-lg">Fill up the form below to contact me in a very simple way and I will reply to you ASAP. You can also contact me at <span className="badge bg-gray-300 text-black font-light small font-mono">adityashekhar.773@gmail.com</span></p>

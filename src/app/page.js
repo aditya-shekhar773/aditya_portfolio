@@ -22,7 +22,7 @@ export default function Home() {
             <p className="lg:text-5xl md:text-5xl text-3xl font-bold mt-2 font-serif">Aditya Shekhar</p>
             <p className="lg:text-xl md:text-xl font-mono text-sm mt-2 text-slate-400">&lt;An amateur developer./&gt;</p>
             <p className="lead  text-2xl d-none d-md-block mt-3 font-sarif text-slate-500">
-              I am a developer-cum-student with specialization in <span className="text-black">Web/App development</span>.
+              I am a developer-cum-student with specialization in <span className="">Web/App development</span>.
               <span className='text-slate-300'> Not really</span> Skilled in <span className="font-semibold text-blue-600" >Python</span> and <span className="text-slate-300">really</span> good in <span className="font-semibold text-orange-400">Javascript</span> '&amp;' <span className="font-semibold text-blue-400" >NextJs</span>.
             </p>
             <div className="flex sm:spaxe-x-0 mt-2 lg:gap-2 gap-1">
@@ -113,7 +113,8 @@ export default function Home() {
         <span className="text-5xl font-bold border-b-8 border-orange-500 font-poppins opacity-100">About Me</span>
         <div className="flex flex-col md:flex-row lg:flex-row mt-5 ">
           <div className="lg:w-1/3 md:w-1/3 mx-auto md:p-20 lg:p-20">
-            <Image src="/adi.jpg" alt="my pic" width={200} height={50} className="rounded-full " />
+            <Image src="/adi.jpg" alt="my pic" width={200} height={50} className="rounded-full dark:hidden" />
+            <Image src="/adi.jpeg" alt="my pic" width={200} height={50} className="rounded-full dark:flex hidden" />
           </div>
           <div className="lg:w-2/3 md:w-2/3 mt-4 lg:mt-10 md:mt-10 flex flex-col items-center">
             <p className="text-xl text-center lg:text-left md:text-left mt-4 font-medium font-sans">

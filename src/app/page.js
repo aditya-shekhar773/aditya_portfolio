@@ -114,7 +114,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row lg:flex-row mt-5 ">
           <div className="lg:w-1/3 md:w-1/3 mx-auto md:p-20 lg:p-20">
             <Image src="/adi.jpg" alt="my pic" width={200} height={50} className="rounded-full dark:hidden" />
-            <Image src="/aadi.jpeg" alt="my pic" width={200} height={50} className="rounded-full dark:flex hidden" />
+            <Image src="/adi.jpeg" alt="my pic" width={200} height={50} className="rounded-full dark:flex hidden" />
           </div>
           <div className="lg:w-2/3 md:w-2/3 mt-4 lg:mt-10 md:mt-10 flex flex-col items-center">
             <p className="text-xl text-center lg:text-left md:text-left mt-4 font-medium font-sans">

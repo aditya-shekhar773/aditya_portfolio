@@ -45,7 +45,7 @@ const Education = () => {
                     </div>
                     <div className="lg:w-2/3 md:w-2/3 flex flex-col ">
                         <div className=''>
-                            <h1 className='text-2xl font-semibold font-serif'>Education</h1>
+                            <h1 className='text-2xl font-semibold font-serif '>Education</h1>
                             <div className='mt-2 p-5'>
                                 <div className='justify-between items-center flex'>   
                                     <h1 className='font-serif text-base lg:text-lg font-medium'>Bachelors of Computer Applications</h1>

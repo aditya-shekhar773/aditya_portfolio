@@ -2,7 +2,7 @@
 import Hero from './Components/Hero';
 import Education from './Components/Education';
 import Company from './Components/Company';
-// import Project from './Components/Project';
+import Project from './Components/Project';
 import Contact from './Components/Contact';
 import Skill from './Components/Skill';
 
@@ -15,7 +15,7 @@ export default function Home() {
         <Education />
         <Skill/>
         <Company />
-        {/* <Project /> */}
+        <Project />
         <Contact />
       </div>
     </>

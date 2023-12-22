@@ -5,29 +5,16 @@ import React, { useState } from 'react'
 const Project = () => {
   const [projects, setProjects] = useState([
     {
-      name: "Fully Fuctional Spotify Clone",
-      video: "./videos/spotify_clone2.mp4",
-      link: "https://youtu.be/uVPqC_N0b3o",
-      tech: ["reactjs", "tailwind"]
+      name: "Fully Fuctional Servixc Center",
+      title: "Servixc Center",
+      img: "servix.png",
+      tech: ["laravel", "bootstrap","mysql"]
     },
     {
-      name: "Transport Software",
-      video: "./videos/transport_software2.mp4",
-      link: "https://youtu.be/3XCtpurfo_o",
-      tech: ["laravel", "vuejs"]
-    },
-    {
-      name: "Goods Pickup Request Portal",
-      video: "./videos/pickup.png",
-      isImg: true,
-      link: "#",
-      tech: ["html", "js", "php"]
-    },
-    {
-      name: "News Caliber",
-      video: "./videos/news_caliber2.mp4",
-      link: "https://youtu.be/8rUh4gBMMII",
-      tech: ["reactjs", "tailwind"]
+      name: "Fully Fuctional Resturent",
+      title: "Resturent",
+      img: "resturent.png",
+      tech: ["laravel", "tailwind","mysql"]
     },
 
 
@@ -48,48 +35,17 @@ const Project = () => {
           </div>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-1 my-4'>
             {projects.map((project, i) => (
-              <div
-                key={i}
-                onClick={() => window.open(project.link)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    window.open(project.link);
-                  }
-                }}
-                className="cursor-pointer relative p-2 hover:bg-[rgb(0,0,0,0.2)] smoothify"
-                role="button"
-                tabIndex={0}
-              >
+              <div>
                 <span className="text-slate-400 hidden md:block typing">{project.name}</span>
-                <div>
-                  {project.isImg ? (
-                    <img
-                      alt={`Thumbnail for ${project.name}`}
-                      src={project.video}
-                      className="w-[400px] fadein"
-                    />
-                  ) : (
-                    <video
-                      autoPlay={false}
-                      onMouseOver={(e) => e.target.play()}
-                      onMouseLeave={(e) => e.target.pause()}
-                      muted
-                      loop
-                      className="w-[400px] fadein"
-                    >
-                      <source src={project.video} type="video/mp4" />
-                    </video>
-                  )}
-
-                  <div className="text-center">
-                    {project.tech.map((t, j) => (
-                      <img
-                        key={t + j}
-                        alt={`${t} logo`}
-                        src={`./IMG/${t}.png`}
-                        className="w-5 md:w-7 lg:w-10 mx-2 my-2 inline-block"
-                      />
-                    ))}
+                <div className='p-2 border'>
+                  <img alt="" src={`./IMG/${project.img}`} className="border-b border-black w-[450px] h-[220px] justify-items-center" />
+                  <span className=" text-lg font-bold">{project.title}</span>
+                  <div className='text-center'>
+                    {
+                      project.tech.map((t, i) => {
+                        return <img alt="" key={t + i} src={`./IMG/${t}.png`} className="w-5 md:w-7 lg:w-10 mx-2 my-2 inline-block" />
+                      })
+                    }
                   </div>
                 </div>
               </div>

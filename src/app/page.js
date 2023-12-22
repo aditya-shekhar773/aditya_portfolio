@@ -16,7 +16,7 @@ export default function Home() {
         <Skill/>
         <Company />
         {/* <Project /> */}
-        <Contact />s
+        <Contact />
       </div>
     </>
   )

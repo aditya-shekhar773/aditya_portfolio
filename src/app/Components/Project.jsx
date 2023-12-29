@@ -16,6 +16,12 @@ const Project = () => {
       img: "resturent.png",
       tech: ["laravel", "tailwind","mysql"]
     },
+    {
+      name: "Fully Responsive Coaching ",
+      title: "Coaching Hub",
+      img: "coaching.png",
+      tech: ["laravel", "bootstrap","mysql"]
+    },
 
 
   ]);
@@ -37,7 +43,7 @@ const Project = () => {
             {projects.map((project, i) => (
               <div>
                 <span className="text-slate-400 hidden md:block typing">{project.name}</span>
-                <div className='p-2 border'>
+                <div className='p-2 border rounded-md shadow-xl'>
                   <img alt="" src={`./IMG/${project.img}`} className="border-b border-black w-[450px] h-[220px] justify-items-center" />
                   <span className=" text-lg font-bold">{project.title}</span>
                   <div className='text-center'>

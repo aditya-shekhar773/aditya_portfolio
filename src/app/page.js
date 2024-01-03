@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-full items-center justify-between md:p-24 lg:p-24 p-5">
+      <div onContextMenu={(e) => { e.preventDefault(); return false; }} className="w-full items-center justify-between md:p-24 lg:p-24 p-5">
         <Hero />
         <Education />
         <Skill/>
